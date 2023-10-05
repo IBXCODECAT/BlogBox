@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'client';
-  weatherForecasts: any;
+  posts: any;
 
   constructor (private http: HttpClient) {
 
@@ -16,7 +16,7 @@ export class AppComponent {
 
   ngOnInit(): void {
     this.http.get('http://localhost:5314/weatherforcast').subscribe(
-      response => { this.weatherForecasts = response; },
+      response => { this.posts = response; },
       error => { console.log(error); }
     );
   }
