@@ -1,3 +1,4 @@
+using Microsoft.EntityFrameworkCore;
 using Persistance;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -22,10 +23,27 @@ if (app.Environment.IsDevelopment())
 
 
 app.UseCors(policy => policy
-    .AllowAnyHeader(),
-    .AllowAnyMethod(),
+    .AllowAnyHeader()
+    .AllowAnyMethod()
     .WithOrigins("https://localhost:5342")
-)
+);
+
+
+//Seed Data
+using(var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+
+    try {
+        var context = services.GetRequiredService<DataContext>();
+        context.Database.Migrate();
+        Seed.SeedData(context);
+    }
+    catch(Exception ex) {
+        var logger = services.GetRequiredService<ILogger<Program>>();
+        logger.LogError(ex, "An error occured during migration");
+    }
+}
 
 app.UseHttpsRedirection();
 
