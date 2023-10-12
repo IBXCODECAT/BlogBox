@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\natha\\OneDrive\\Desktop\\dotnet\\Application\\Application.csproj": {}
+    "C:\\Users\\natha\\OneDrive\\Desktop\\BlogBox\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\natha\\OneDrive\\Desktop\\dotnet\\Application\\Application.csproj": {
+    "C:\\Users\\natha\\OneDrive\\Desktop\\BlogBox\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\natha\\OneDrive\\Desktop\\dotnet\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\natha\\OneDrive\\Desktop\\BlogBox\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\natha\\OneDrive\\Desktop\\dotnet\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\natha\\OneDrive\\Desktop\\BlogBox\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\natha\\OneDrive\\Desktop\\dotnet\\Application\\obj\\",
+        "outputPath": "C:\\Users\\natha\\OneDrive\\Desktop\\BlogBox\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\natha\\OneDrive\\Desktop\\dotnet\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\natha\\OneDrive\\Desktop\\dotnet\\Domain\\Domain.csproj"
+              "C:\\Users\\natha\\OneDrive\\Desktop\\BlogBox\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\natha\\OneDrive\\Desktop\\BlogBox\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\natha\\OneDrive\\Desktop\\dotnet\\Persistance\\Persistance.csproj": {
-                "projectPath": "C:\\Users\\natha\\OneDrive\\Desktop\\dotnet\\Persistance\\Persistance.csproj"
+              "C:\\Users\\natha\\OneDrive\\Desktop\\BlogBox\\Persistance\\Persistance.csproj": {
+                "projectPath": "C:\\Users\\natha\\OneDrive\\Desktop\\BlogBox\\Persistance\\Persistance.csproj"
               }
             }
           }
@@ -62,18 +62,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\natha\\OneDrive\\Desktop\\dotnet\\Domain\\Domain.csproj": {
+    "C:\\Users\\natha\\OneDrive\\Desktop\\BlogBox\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\natha\\OneDrive\\Desktop\\dotnet\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\natha\\OneDrive\\Desktop\\BlogBox\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\natha\\OneDrive\\Desktop\\dotnet\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\natha\\OneDrive\\Desktop\\BlogBox\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\natha\\OneDrive\\Desktop\\dotnet\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\natha\\OneDrive\\Desktop\\BlogBox\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -117,18 +117,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\natha\\OneDrive\\Desktop\\dotnet\\Persistance\\Persistance.csproj": {
+    "C:\\Users\\natha\\OneDrive\\Desktop\\BlogBox\\Persistance\\Persistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\natha\\OneDrive\\Desktop\\dotnet\\Persistance\\Persistance.csproj",
+        "projectUniqueName": "C:\\Users\\natha\\OneDrive\\Desktop\\BlogBox\\Persistance\\Persistance.csproj",
         "projectName": "Persistance",
-        "projectPath": "C:\\Users\\natha\\OneDrive\\Desktop\\dotnet\\Persistance\\Persistance.csproj",
+        "projectPath": "C:\\Users\\natha\\OneDrive\\Desktop\\BlogBox\\Persistance\\Persistance.csproj",
         "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\natha\\OneDrive\\Desktop\\dotnet\\Persistance\\obj\\",
+        "outputPath": "C:\\Users\\natha\\OneDrive\\Desktop\\BlogBox\\Persistance\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -145,8 +145,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\natha\\OneDrive\\Desktop\\dotnet\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\natha\\OneDrive\\Desktop\\dotnet\\Domain\\Domain.csproj"
+              "C:\\Users\\natha\\OneDrive\\Desktop\\BlogBox\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\natha\\OneDrive\\Desktop\\BlogBox\\Domain\\Domain.csproj"
               }
             }
           }
@@ -192,7 +192,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vJXjl5o2BhZAw8BPI/vJ7VzcezY6XHx3ZokQbzQ3pTgiQLVlAOddc9M4dBkSF7UhmD+mvmLQnA6lxBFB44wjZw==",
+  "dgSpecHash": "xJ4Ze3DUZ/3KnMTkHHRIbcOzMt8afrvL+upyeljO8IvBLAJg3xlB5t2UPdseEn24zHUEJSoJxQ+Tu9RnTT97iA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\natha\\OneDrive\\Desktop\\dotnet\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\natha\\OneDrive\\Desktop\\BlogBox\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\natha\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.11\\microsoft.data.sqlite.core.7.0.11.nupkg.sha512",
     "C:\\Users\\natha\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.11\\microsoft.entityframeworkcore.7.0.11.nupkg.sha512",

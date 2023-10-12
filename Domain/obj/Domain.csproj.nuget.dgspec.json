@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\natha\\OneDrive\\Desktop\\dotnet\\Domain\\Domain.csproj": {}
+    "C:\\Users\\natha\\OneDrive\\Desktop\\BlogBox\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\natha\\OneDrive\\Desktop\\dotnet\\Domain\\Domain.csproj": {
+    "C:\\Users\\natha\\OneDrive\\Desktop\\BlogBox\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\natha\\OneDrive\\Desktop\\dotnet\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\natha\\OneDrive\\Desktop\\BlogBox\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\natha\\OneDrive\\Desktop\\dotnet\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\natha\\OneDrive\\Desktop\\BlogBox\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\natha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\natha\\OneDrive\\Desktop\\dotnet\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\natha\\OneDrive\\Desktop\\BlogBox\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\natha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
