@@ -31,7 +31,7 @@ namespace API.Controllers
         [HttpGet("{id}", Name = "GetPost")]
         public ActionResult<Post> GetPost(Guid id)
         {
-            DbSet<Post> post = this.context.posts;
+            Post? post = this.context.posts.Find(id);
 
             if (post is null)
             {
