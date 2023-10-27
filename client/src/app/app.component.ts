@@ -1,23 +1,22 @@
+import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements OnInit{
   title = 'client';
   posts: any;
 
-  constructor (private http: HttpClient) {
-
+  constructor(private http: HttpClient) {
+    
   }
-
   ngOnInit(): void {
-    this.http.get('http://localhost:5314/weatherforcast').subscribe(
+    this.http.get('http://localhost:5135/api/posts').subscribe(
       response => { this.posts = response; },
-      error => { console.log(error); }
+      error => {console.log(error)}
     );
   }
 }

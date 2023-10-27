@@ -25,7 +25,7 @@ if (app.Environment.IsDevelopment())
 app.UseCors(policy => policy
     .AllowAnyHeader()
     .AllowAnyMethod()
-    .WithOrigins("https://localhost:5342")
+    .AllowAnyOrigin()
 );
 
 

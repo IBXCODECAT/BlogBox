@@ -1,6 +1,15 @@
 <h1>{{title}}</h1>
 
-<div **ngFor="let post of posts">
-  <h2>{{post.title}}</h2>
-  <p>{{post.body}}</p>
+<div *ngFor="let post of posts">
+  <mat-card class="post-card">
+    <mat-card-title>{{post.title}}</mat-card-title>
+    <mat-card-content>
+      <p>{{post.date | date : 'longDate'}}</p>
+      <p>{{post.body}}</p>
+    </mat-card-content>
+    <mat-card-content>
+      <button mat-button>LIKE</button>
+      <button mat-button>SHARE</button>
+    </mat-card-content>
+  </mat-card>
 </div>
