@@ -7,6 +7,9 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatCardModule } from '@angular/material/card'
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon';
+
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 
@@ -21,6 +24,8 @@ import { CommonModule } from '@angular/common';
     CommonModule,
     BrowserAnimationsModule,
     MatCardModule,
+    MatIconModule,
+    MatToolbarModule,
     HttpClientModule
   ],
   providers: [],
