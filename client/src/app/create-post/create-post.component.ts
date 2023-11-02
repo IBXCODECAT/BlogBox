@@ -2,12 +2,12 @@ import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
-
 @Component({
   selector: 'app-create-post',
   templateUrl: './create-post.component.html',
-  styleUrls: ['./create-post.component.css']
+  styleUrls: ['./create-post.component.css'],
 })
+
 export class CreatePostComponent implements OnInit {
 
   model: any = {};
@@ -22,7 +22,7 @@ export class CreatePostComponent implements OnInit {
 
   createPost() {
     this.model.date = new Date();
-    this.http.post('http://localhost:5037/api/posts', this.model).subscribe(
+    this.http.post('http://localhost:5135/api/posts', this.model).subscribe(
       response => { this.home() },
       error => { console.log(error) }
     );
